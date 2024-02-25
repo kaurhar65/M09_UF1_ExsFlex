@@ -1,0 +1,10 @@
+.General{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+section div{
+    flex-basis: 25%;
+}

@@ -1,0 +1,27 @@
+.general{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div{
+    display: flex;
+    flex-basis: 23.5%;
+    margin: 0.5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.elemento5{
+    flex-basis: calc(100% - 3%);
+}
+
+@media (max-width:1024px){
+    section div{
+        flex-basis: 45%;
+    }
+
+    .elemento5{
+        flex-basis: 91%;
+    }
+}

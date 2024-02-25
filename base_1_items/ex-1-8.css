@@ -1,0 +1,18 @@
+.general {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.general div {
+    flex-basis: calc(33.33% - 5px);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.elemento9 {
+    flex-basis: calc(100% - 10px);
+    margin-right: 0;
+}
